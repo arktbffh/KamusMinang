@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abcd"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <!-- Sample Dashboard screen with Two buttons -->
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="198dp"
+        android:layout_height="155dp"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:id="@+id/btnbuka"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:text="Pembukaan" 
+        android:background="@color/coklat"/>
+
+    <Button
+        android:id="@+id/btnterjemah"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:text="Terjemahan" 
+        android:background="@color/coklat"/>
+
+    <Button
+        android:id="@+id/btnprofil"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:text="Profil" 
+        android:background="@color/coklat"/>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kamus Indonesia Minang</string><string name="username_textview">Username:</string><string name="password_textview">Password:</string><string name="submit">Submit</string><string name="post_comment">Post Comment</string><string name="read_comments_title">Recent Comments</string><string name="passwords_not_same">Passwords don\'t match</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="coklat">#b65e1f</color>
+    <string name="teksini">bahasa minangkabau adalah salah satu bahasa dari bahasa rumpun melayu yang di tuturkan oleh minangkabau sebagai bahas ibu khususnya di propinsi sumatra barat, pantai barat aceh dan sumatara utara, dan sekitarnya. bahasa minang masih di guankan ssebagai bahasa sehari-hari oleh masyarakan minangkabau, baik yang berdomisili di sumatara maupun di perantauan, namun untuk masyarakat minangkabau yang lahir di perantauan, sebagian besar mereka telah mengguanakn bahasa indonesia atau bahasa melayu dalam percakapan sehari hari.</string>
+
+</resources>

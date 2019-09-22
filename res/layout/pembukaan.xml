@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abcd"
+   >
+
+    <Button
+        android:id="@+id/btnkembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/coklat"
+        android:text="Kembali" />
+
+    <TextView
+        android:id="@+id/teks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnkembali"
+        android:layout_alignParentLeft="true"
+        android:maxLines="7"
+        android:scrollbars="vertical"
+        android:text="@string/teksini"
+        android:textSize="23dp" />
+
+</RelativeLayout>

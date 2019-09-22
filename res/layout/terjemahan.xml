@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+   
+    android:background="@drawable/efghij">
+    <!-- username -->
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text="Indonesia"
+      
+        android:textSize="17dip" />
+
+    <!-- username input -->
+
+    <EditText
+        android:id="@+id/inputkamus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true" />
+
+    <!-- password -->
+
+    <Button
+        android:id="@+id/btnterjemah"
+        style="@style/WhiteText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Terjemahkan" 
+        android:background="@color/coklat"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text="Minang"
+        
+        android:textSize="17dip" />
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:layout_weight="0.06"
+        android:text=" "
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/btnkembali2"
+        style="@style/WhiteText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/coklat"
+        android:text="Kembali" />
+
+</LinearLayout>
